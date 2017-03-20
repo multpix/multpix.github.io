@@ -8,14 +8,30 @@
   background: #0e232e;
 }
 
+.new_big_section {
+  min-height: 100%;
+  background: #1d3e5a;
+}
+
 .head {
-  background: #bdcdd4; 
+  background: #bdcdd4;
   background: linear-gradient(to top, #fff, #bdcdd4);
 }
+
+.new_head {
+  background: #3D76A0;
+  background: linear-gradient(to top, #7dabcd, #3D76A0);
+}
+
 
 .bg_head {
   min-height: 500px;
   background: url('../images/dru_ru_head_bd_rep.svg') repeat-x center bottom;
+}
+
+.new_bg_head {
+  min-height: 500px;
+  background: url('../images/new_dru_ru_head_bd_rep.svg') repeat-x center bottom;
 }
 
 .logo_head {
@@ -48,5 +64,10 @@ sup {
 p.bottom {
   margin-top: 5rem;
   font-size: 0.7rem;
-  color: #364e59;
+  color: #afafaf;
+}
+
+p.bottom a {
+  color: #9eabb0;
+  font-weight: bolder;
 }
